@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/pay5.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Improved text color for better readability */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px; /* New font size */
+    font-family: 'Georgia', serif; /* Change font style */
+    color: #f865af ;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Form Styles */
+form {
+    background: rgba(255, 255, 255, 0.9); /* Slightly more opaque for better contrast */
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+form:hover {
+    transform: scale(1.01); /* Slight scaling effect on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between table cells */
+}
+
+td {
+    padding: 15px; /* Increased padding for better spacing */
+    border-bottom: 1px solid #ccc; /* Underline each row */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    margin-top: 5px;
+    border-radius: 5px; /* More rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    transition: border-color 0.3s; /* Transition for border color on focus */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #e87c64; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #f865af; /* Primary button color */
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Increased padding */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition */
+    display: block;
+    margin: 20px auto; /* Center the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #f0b4d2 ; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* View Product Button */
+.view-product-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-product-button a {
+    text-decoration: none;
+    background-color: #ee94e7; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.view-product-button a:hover {
+    background-color: #c7a8c5; /* Darker shade on hover */
+}
+
+/* Link Hover Effect */
+a:hover {
+    background-color: #e87c64; /* Link hover color */
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 36px; /* Adjust heading size for smaller screens */
+    }
+}

@@ -1,0 +1,47 @@
+#list{list-style-type: none;
+  background-color: blue;
+  overflow: hidden;
+}
+
+.menu :hover {
+  background-color: white;
+ color:black;}
+
+.menu {
+  float: left;
+}
+
+.menu a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;}
+
+.footer{
+overflow:hidden;
+padding:5px;
+background:white;
+text-align:center;
+margin-top:10px;
+}
+
+#col1,#col2,#col3{
+float:left;
+width:300px;
+padding:0px 10px 0px 10px;
+color:black;}
+
+#col3_1,#col3_2{
+float:left;
+width:110px;
+padding:0px 10px 0px 10px;
+margin:10px;
+}
+
+#list1{
+list-style-type:circle;
+background-color: white;
+color: black;
+font-size:16px;
+}

@@ -1,0 +1,114 @@
+/* Center the headline */
+h1 {
+    text-align: center;
+    font-size: 50px; /* New font size */
+    font-family: 'Georgia', serif; /* Change font style */
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style for the form */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #fd6cb5 ;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f0b4d2 ;
+}
+
+/* Style for the payment table */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #faa0cd ;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc7ca  ;
+}
+
+/* Style for buttons */
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-family: 'Arial', sans-serif;
+}
+
+.button.edit {
+    background-color: #28a745;
+    color: white;
+}
+
+.button.edit:hover {
+    background-color: #218838;
+}
+
+.button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .button {
+    background-color: #fd6cb5 ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+footer .button:hover {
+    background-color: #f0b4d2 ;
+}

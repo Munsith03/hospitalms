@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Feedback</title>
+    <!-- Add Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/feedback.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="form-container">
+            <h1>Add New Feedback</h1>
+            <p class="form-subtitle">We appreciate your thoughts and suggestions</p>
+            
+            <form action="SaveServlet" method="post">
+                <div class="input-group">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" id="cname" name="cname" required />
+                    <label for="cname">Customer Name</label>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-hospital icon"></i>
+                    <input type="text" id="ename" name="ename" required />
+                    <label for="ename">Hospital Event Name</label>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-calendar icon"></i>
+                    <input type="date" id="fdate" name="fdate" required />
+                    <label for="fdate">Feedback Date</label>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-comment icon"></i>
+                    <textarea id="fcomment" name="fcomment" rows="4" required></textarea>
+                    <label for="fcomment">Feedback Comment</label>
+                </div>
+                
+                <div class="btn-container">
+                    <button type="submit" class="primary-btn">Save Feedback</button>
+                </div>
+            </form>
+            
+            <div class="link-container">
+                <a href="ViewServlet" class="view-link">
+                    <i class="fas fa-eye"></i> View All Feedbacks
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

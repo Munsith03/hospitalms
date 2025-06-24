@@ -1,0 +1,166 @@
+/* Style for body */
+body {
+   background-color: #f4f4f4; /* Light gray background for a clean look */
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: Arial, sans-serif;
+   color: #333;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+/* Style for header */
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    background-color: #3E4A61; /* Dark blue background */
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Georgia', serif; /* Change font style */
+    font-style: italic; /* Make font italic */
+    border-bottom: 2px solid #FFD700; /* Gold border */
+}
+
+/* Style for the search label */
+form input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid #FF5733; /* Bright orange border for emphasis */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text */
+    font-size: 16px;
+}
+
+/* Style for the search button */
+form input[type="submit"] {
+    padding: 8px 12px;
+    background-color: #FF5733; /* Bright orange background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #C70039; /* Darker red-orange on hover */
+}
+
+/* Style for the search form label */
+form {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #3E4A61; /* Dark blue label text */
+}
+
+/* Add padding to the form to make it look better */
+form {
+    padding: 10px 0;
+}
+
+/* Style for table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3E4A61; /* Dark blue for headers */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #ddd; /* Light hover effect */
+}
+
+/* General button style (for buttons like 'Add New Employee') */
+.button {
+    background-color: #FF5733; /* Bright orange for general buttons */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for Edit button */
+.button-edit {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-edit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for Delete button */
+.button-delete {
+    background-color: #f44336; /* Red background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-delete:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+
+.button:hover {
+    background-color: #C70039; /* Darker red-orange on hover */
+}
+
+
+
+/* Style for footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(62, 74, 97, 0.8); /* Dark blue for footer background */
+}

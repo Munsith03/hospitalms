@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/feedback3.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/feedback3.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1; /* Decrease opacity (0.5 = 50%) */
+    z-index: -1; /* Ensure the background stays behind the content */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 50px; /* New font size */
+    font-family: 'Georgia', serif; /* Change font style */
+    font-style: italic; /* Make font italic */
+    margin-bottom: 20px;
+    color:#092b3c ;
+}
+
+
+/* Input Fields */
+input[type="text"], input[type="date"], select, textarea {
+    width: 85%; /* Width adjustment */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    width: 50%;
+    background-color: #71c5bf;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b69d3;
+}
+
+/* View Feedback Button */
+.view-feedback-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-feedback-button a {
+    text-decoration: none;
+    background-color: #71c5bf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.view-feedback-button a:hover {
+    background-color: #3b69d3;
+}
